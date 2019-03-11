@@ -79,7 +79,7 @@ parser.add_argument("-dvis", "--diasporavisibility", help="public or (aspectnumb
 parser.add_argument("-f", "--friendica", action="store_true", help="post to friendica")		
 parser.add_argument("-fu", "--friendicauser", help="username at friendica")		
 parser.add_argument("-fpw", "--friendicapwd", help="password at friendica")		
-parser.add_argument("-fpod", "--friendicaurl", help="password at friendica")	
+parser.add_argument("-fpod", "--friendicaurl", help="url at friendica without https://")	
 parser.add_argument("-fvis", "--friendicavisibility", help="public")		
 
 args = parser.parse_args()
