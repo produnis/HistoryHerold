@@ -151,18 +151,14 @@ if args.friendicavisibility:
 ################################################################################	
 
 ### setting up some variables
-right_now 	= 	datetime.datetime.now()
+right_now 	= datetime.datetime.now()
 jahr 		= right_now.year
 monat 		= "%02d" % right_now.month
 heute 		= "%02d" % right_now.day
 picdir 		= os.getcwd()
-botarchivlogfile	= "%s/archive-%s-%s" % (picdir , jahr , botarchivefile)
-post_mediafile 		= "None"
-ismp4file 			= "No"
-friendicapwd		= quote(friendicauserpwd)
+botarchivlogfile = "%s/archive-%s-%s" % (picdir , jahr , botarchivefile)
+friendicapwd	= quote(friendicauserpwd)
 ###########----------------------------
-
-
 
 printOrNot('Source directory is %s' % (picdir))
 
