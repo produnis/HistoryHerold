@@ -12,27 +12,27 @@ from urllib.parse import quote
 #---------------------------------------------
 # 		CHANGE TO FIT YOUR SETTINGS
 #---------------------------------------------
-botarchivefile  = "herold_my_club.txt"	# where to store already posted messages
-standardmessage = '#cool #hashtag'		# message posted with each photo, e.g. "#nsfw"
-bequiet 		= False  				# should the script give some output on stdr? Set True to post nothing
-numberofmedia	= 4	 					# how many mediafiles are we allowed to post (default = 4)
+botarchivefile   = "herold_my_club.txt"	# archive where to store already posted messages
+standardmessage = '#cool #hashtag'	# message posted with each photo, e.g. "#nsfw"
+bequiet 	= False  # should the script give some output on stdr? Set True to post nothing
 
 # Mastodon
 #---------
-postmastodon  = False
+postmastodon  = False # we do NOT post in default
 mastodonurl 		= 'https://botsin.space'	# The URL of your account's pod
-mastodonvisibility 	= "public"					# "direct", "private", "unlisted", "public"
+mastodonvisibility 	= "public"			# "direct", "private", "unlisted", "public"
 mastodontoken 		= "7203....foobar.foobar.....9bbbf"	# The acces-token is needed to login/post to your account
 mastodonmaxletter 	= 420  # how many letters per post are allowed at your intance?
+numberofmedia		= 4 	# how many mediafiles are we allowed to post (default = 4)
 #---------------------------------------------
 
 # Diaspora
 #----------
-postdiaspora = False
-podurl 				= 'https://diasp.eu' 	# The URL of your account's pod
-poduser 			= 'test'				# Username	
-poduserpwd 			= 'SUPERSECRETPWD'		# Password
-diasporavisibility 	= "public"				# = (2431, 3423)
+postdiaspora = False # we do NOT post in default
+podurl 			= 'https://diasp.eu' 	# The URL of your account's pod
+poduser 		= 'test'		# Username	
+poduserpwd 		= 'SUPERSECRETPWD'	# Password
+diasporavisibility 	= "public"		# = (2431, 3423) # Aspect numbers
 
 # Friendica
 #-----------
@@ -40,7 +40,7 @@ postfriendica = False
 friendicaurl 		= 'libranet.de' 	# The URL of your account's pod WITHOUT "https://"
 friendicauser 		= 'testuser'		# Username	
 friendicauserpwd 	= 'SUPERSECRETPWD'	# Password  # ist %23
-friendicavisibility = "public"
+friendicavisibility 	= "public"
 #########################################################
 # no need to change anything after here
 #---------------------------------------------
