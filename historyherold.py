@@ -13,7 +13,7 @@ from urllib.parse import quote
 # 		CHANGE TO FIT YOUR SETTINGS
 #---------------------------------------------
 botarchivefile   = "herold_my_club.txt"	# archive where to store already posted messages
-standardmessage = '#cool #hashtag'	# message posted with each photo, e.g. "#nsfw"
+standardmessage = '#cool #hashtag'	# message posted with each txt, e.g. "#nsfw"
 bequiet 	= False  # should the script give some output on stdr? Set True to post nothing
 
 # Mastodon
